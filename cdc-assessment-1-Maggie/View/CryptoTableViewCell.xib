@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CryptoTableViewCell" customModule="cdc_assessment_1_Maggie" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Identifier" rowHeight="144" id="Fin-Vs-2dX" customClass="CryptoTableViewCell" customModule="cdc_assessment_1_Maggie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fin-Vs-2dX" id="FBT-2U-OF6">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="144"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="44t-dt-1BS">
+                        <rect key="frame" x="10" y="0.0" width="373" height="94"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="LdD-Px-3e7">
+                                <rect key="frame" x="20" y="50" width="353" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="44t-dt-1BS" firstAttribute="leading" secondItem="FBT-2U-OF6" secondAttribute="leading" constant="10" id="1nt-Rm-tde"/>
+                    <constraint firstAttribute="bottom" secondItem="44t-dt-1BS" secondAttribute="bottom" id="Ild-Qr-IVP"/>
+                    <constraint firstAttribute="trailing" secondItem="44t-dt-1BS" secondAttribute="trailing" id="qAF-M8-kGW"/>
+                    <constraint firstItem="44t-dt-1BS" firstAttribute="top" secondItem="FBT-2U-OF6" secondAttribute="top" id="z0A-oT-uQD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="title" destination="LdD-Px-3e7" id="kpO-Pg-2OJ"/>
+            </connections>
+            <point key="canvasLocation" x="-390.07633587786256" y="-17.605633802816904"/>
+        </tableViewCell>
+    </objects>
+</document>
